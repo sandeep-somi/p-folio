@@ -1,0 +1,12 @@
+@media(max-width:480px){
+  .sidebar {
+    height: auto;
+  }
+}
+
+@media(min-width:1500px){
+  .container{
+    padding: 0 50px;
+    max-width: 1440px;
+  }
+}
