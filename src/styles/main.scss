@@ -25,20 +25,22 @@ h1, h2, h3, h4, h5 {
 	align-items: center;
 	.menu-items {
 		ul {
-			display: flex;
-			list-style: none;
-			padding: 0px;
-			margin: 0px;
-			justify-content: space-around;
-			width: 400px;
-			color: #666;
+			    display: flex;
+					list-style: none;
+					padding: 0px;
+					margin: 0px;
+					justify-content: end;
+					width: 100%;
+					color: #666;
 			&:hover {
 				color: #aaa;
 			}
 			li{
-				flex: 0 0 auto;
-				cursor: pointer;
-				transition: color 170ms;
+			    flex: 1;
+					cursor: pointer;
+					transition: color 170ms;
+					padding: 0 20px;
+					margin: 0 6px 0 0;
 				&:hover {
 					color: #444;
 				}
