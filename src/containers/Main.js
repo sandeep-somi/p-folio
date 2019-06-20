@@ -1,12 +1,14 @@
 import React, { Component } from 'react';
-import { Header, FirstSection } from '../components';
+import { Header, Introduction, Development } from '../components';
+
 class Main extends Component {
   
   render() {
     return (
       <div>
         <Header />
-        <FirstSection />
+        <Introduction />
+        <Development />
       </div>
     );
   }

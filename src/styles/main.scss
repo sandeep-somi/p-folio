@@ -49,7 +49,7 @@ h1, h2, h3, h4, h5 {
 	}
 }
 
-.first-section-content {
+.intro-wrapper {
 	height: 500px;
 	display: flex;
 	justify-content: center;
@@ -61,8 +61,8 @@ h1, h2, h3, h4, h5 {
 			font-size: 20px;
 			font-family: adobe-garamond-pro;
 		}
-		h2 {
-			font-size: 52px;
+		h1 {
+			font-size: 42px;
 			font-weight: bold;
 		}
 		button {
@@ -72,6 +72,17 @@ h1, h2, h3, h4, h5 {
 	}
 }
 
-.title-top {
-	
+.dev-wrapper {
+	padding: 100px 100px;
+	text-align: center;
+	background-color: #fbfbfb;
+	h1 {
+		font-size: 42px;
+		font-weight: 400;
+		margin-bottom: 15px;
+	}
+	h2 {
+		font-size: 32px;
+		font-weight: 200;
+	}
 }

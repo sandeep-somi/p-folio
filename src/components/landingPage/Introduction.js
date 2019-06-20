@@ -1,15 +1,15 @@
 import React from 'react';
 import { Row, Col, Button, Container } from 'react-bootstrap';
 
-const FirstSection = () => {
+const Intorduction = () => {
 
   return (
     <Container >
       <Row>
-        <Col xs={12} sm={12} md={12} className="first-section-content">
+        <Col xs={12} sm={12} md={12} className="intro-wrapper">
           <div>
             <p><i>I am here to create meaningful and lasting relationship with my clients.</i></p>
-            <h2>LET'S BUILD SOMETHING<br />AMAZING TOGETHER</h2>
+            <h1>LET'S BUILD SOMETHING<br />AMAZING TOGETHER</h1>
             <Button variant="outline-dark mt-4">Watch Video</Button>
           </div>
         </Col>
@@ -18,4 +18,4 @@ const FirstSection = () => {
   )
 }
 
-export default FirstSection;
+export default Intorduction;
