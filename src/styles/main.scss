@@ -29,7 +29,7 @@ h1, h2, h3, h4, h5 {
 					list-style: none;
 					padding: 0px;
 					margin: 0px;
-					justify-content: end;
+					justify-content: flex-end;
 					width: 100%;
 					color: #666;
 			&:hover {
@@ -59,7 +59,7 @@ h1, h2, h3, h4, h5 {
 		p {
 			color: #999;
 			font-size: 20px;
-			font-family: adobe-garamond-pro;
+			font-family: 'adobe-garamond-pro';
 		}
 		h1 {
 			font-size: 42px;
@@ -80,9 +80,21 @@ h1, h2, h3, h4, h5 {
 		font-size: 42px;
 		font-weight: 400;
 		margin-bottom: 15px;
+		font-family: 'adobe-garamond-pro';
 	}
 	h2 {
-		font-size: 32px;
+		font-size: 30px;
 		font-weight: 200;
+	}
+}
+
+.services-wrapper {
+	padding: 100px 10%;
+	text-align: center;
+	.row {
+		border: 1px dotted black;
+	}
+	h2 {
+		font-family: 'adobe-garamond-pro';
 	}
 }

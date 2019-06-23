@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
-import { Header, Introduction, Development } from '../components';
+import Introduction from '../components/landingPage/Introduction';
+import Header from '../components/landingPage/Header';
+import Development from '../components/landingPage/Development';
+import Services from '../components/landingPage/Services';
 
 class Main extends Component {
   
@@ -9,6 +12,7 @@ class Main extends Component {
         <Header />
         <Introduction />
         <Development />
+        <Services />
       </div>
     );
   }

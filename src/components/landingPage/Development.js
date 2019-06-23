@@ -1,5 +1,5 @@
 import React from 'react';
-import { Row, Col, Button, Container } from 'react-bootstrap';
+import { Row, Col, Container } from 'react-bootstrap';
 
 const Development = () => {
   const content = "Let's be honest and cut through the marketing fluff. You need a website that looks amazing and actually works. Bottom line, that's what I do. And if you want to learn more about working with me, pick up the phone and give me a call (or email).";
